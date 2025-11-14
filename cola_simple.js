@@ -2,7 +2,7 @@
 // Implementación: Cola Lineal de tamaño fijo, sin corrimiento.
 // Problema: Genera "desbordamiento falso" al avanzar el puntero 'frente'.
 
-const MAX_SIZE = 4; 
+const MAX_SIZE = 7; 
 
 // Punteros: 'frente' indica el primer elemento, 'final' el último.
 let frente = -1;
@@ -180,4 +180,5 @@ function resetQueue() {
 // Inicialización Segura
 document.addEventListener('DOMContentLoaded', (event) => {
     resetQueue();
+
 });

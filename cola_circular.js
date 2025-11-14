@@ -1,7 +1,7 @@
 // cola_circular.js
 // Implementación: Cola Circular con reutilización de espacio usando el operador módulo (%).
 
-const MAX_SIZE = 2; 
+const MAX_SIZE = 7; 
 
 // Punteros y contador
 let frente = 0;
@@ -215,4 +215,5 @@ function resetQueue() {
 // Inicialización Segura
 document.addEventListener('DOMContentLoaded', (event) => {
     resetQueue();
+
 });
